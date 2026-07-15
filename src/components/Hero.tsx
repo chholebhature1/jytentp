@@ -6,7 +6,7 @@ import { ContactFormDialog } from "@/components/ContactFormDialog";
 
 const heroVideos = ["/videos/hero-background-2.mp4"];
 
-const typewriterTexts = ["Brands", "Vision", "Success", "Growth"];
+const typewriterTexts = ["Brands", "Visibility", "Success", "Identity"];
 
 export const Hero = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
@@ -91,7 +91,7 @@ export const Hero = () => {
               className="mb-8"
             >
               <span className="inline-block text-primary text-sm font-medium uppercase tracking-widest">
-                Premium Print & Branding Solutions
+                Advertising • Branding • Printing • Promotions
               </span>
             </motion.div>
 
@@ -128,8 +128,8 @@ export const Hero = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-muted-foreground text-lg max-w-md mb-10"
             >
-              Build Your Brand's Journey with MV Graphics. From concept to print,
-              we deliver excellence.
+              Creating Visibility, Building Brands, Delivering Excellence.
+              Your trusted partner for advertising & branding solutions.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -176,11 +176,11 @@ export const Hero = () => {
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-[60px]" />
               <div className="relative bg-background/50 backdrop-blur-sm border border-border/30 rounded-3xl p-8 max-w-sm">
                 <p className="text-primary-foreground/80 text-lg leading-relaxed">
-                  We Have Achieved Award of{" "}
+                  Delivering{" "}
                   <span className="text-primary font-semibold">
-                    Best Creative & Innovative Branding
+                    Innovative Advertising & Branding Solutions
                   </span>{" "}
-                  Agency Of The Year
+                  across Delhi NCR & Pan India
                 </p>
               </div>
             </div>

@@ -1,35 +1,35 @@
 import { motion } from "framer-motion";
-import { Building2, GraduationCap, Vote, Utensils, Calendar, Briefcase } from "lucide-react";
+import { Building2, GraduationCap, Vote, Landmark, Calendar, Briefcase } from "lucide-react";
 
 const clientTypes = [
   {
+    icon: Building2,
+    name: "Corporate Companies",
+    description: "Professional branding solutions",
+  },
+  {
     icon: GraduationCap,
-    name: "Schools & Colleges",
+    name: "Educational Institutions",
     description: "Complete academic branding",
   },
   {
-    icon: Building2,
-    name: "Corporates",
-    description: "Professional business materials",
+    icon: Landmark,
+    name: "Government Organizations",
+    description: "Official signage & branding",
   },
   {
     icon: Vote,
-    name: "Political Parties",
+    name: "Political Organizations",
     description: "Campaign materials at scale",
   },
   {
-    icon: Utensils,
-    name: "Restaurants & Cafés",
-    description: "Menu & branding solutions",
-  },
-  {
     icon: Calendar,
-    name: "Event Managers",
-    description: "Exhibition & event graphics",
+    name: "Event Management",
+    description: "Exhibition & event branding",
   },
   {
     icon: Briefcase,
-    name: "Small Businesses",
+    name: "Startups & SMEs",
     description: "Affordable branding packages",
   },
 ];

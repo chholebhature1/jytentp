@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logoMvGraphics from "@/assets/logo-mv-graphics.jpeg";
+import visualMark from "@/assets/je-visualmark.jpg";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -41,15 +41,20 @@ export const Header = () => {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3 group">
             <motion.img
-              src={logoMvGraphics}
-              alt="MV Graphics Logo"
-              className="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110"
+              src={visualMark}
+              alt="MV Graphics visual mark"
+              loading="eager"
+              decoding="async"
+              draggable={false}
+              className="w-11 h-11 rounded-2xl object-contain bg-background/90 p-1.5 ring-1 ring-border/20 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:shadow-md sm:w-12 sm:h-12"
             />
             <div className="hidden sm:block">
               <h1 className="font-display text-xl text-primary-foreground tracking-wide leading-none">
-                MV GRAPHICS
+                Jyoti
               </h1>
-              <span className="text-xs text-muted-foreground">Print & Branding</span>
+              <span className="font-display text-xl text-primary-foreground tracking-wide leading-none">
+                Enterprises
+              </span>
             </div>
           </a>
 

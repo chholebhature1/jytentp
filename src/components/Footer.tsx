@@ -1,22 +1,22 @@
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoMvGraphics from "@/assets/logo-mv-graphics.jpeg";
+import visualMark from "@/assets/je-visualmark.jpg";
 
 const footerLinks = {
   services: [
-    "Stationery & Books",
-    "School Branding",
-    "Promotional Prints",
-    "Large Format",
-    "Display Stands",
+    "Corporate Branding",
+    "Flex & Vinyl Printing",
+    "Signage Solutions",
+    "Event Branding",
+    "Digital Marketing",
   ],
   products: [
-    "Banners & Flexes",
-    "T-Shirts & Caps",
-    "Business Cards",
-    "Brochures",
-    "LED Displays",
+    "ACP Sign Boards",
+    "Glow Sign Boards",
+    "Roll-Up Standees",
+    "Brochures & Catalogues",
+    "LED Signage",
   ],
   company: [
     { name: "About Us", href: "#about" },
@@ -39,11 +39,11 @@ export const Footer = () => {
         >
           <div className="relative z-10">
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
-              Ready to Print Your Vision?
+              Ready to Build Your Brand?
             </h2>
             <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto mb-10">
-              From concept to completion, we bring your brand to life with
-              precision printing and stunning quality.
+              From concept to execution, we bring your brand to life with
+              impactful advertising and stunning branding solutions.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button variant="heroOutline" size="xl" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
@@ -67,19 +67,22 @@ export const Footer = () => {
             {/* Brand Column */}
             <div className="lg:col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <img 
-                  src={logoMvGraphics} 
-                  alt="MV Graphics Logo" 
-                  className="w-14 h-14 object-contain"
+                <img
+                  src={visualMark}
+                  alt="Jyoti Enterprises visual mark"
+                  loading="eager"
+                  decoding="async"
+                  draggable={false}
+                  className="w-16 h-16 rounded-2xl object-contain bg-background/90 p-2 ring-1 ring-border/20 shadow-sm"
                 />
                 <h3 className="font-display text-2xl text-primary-foreground tracking-wide">
-                  MV GRAPHICS
+                  JYOTI ENTERPRISES
                 </h3>
               </div>
               <p className="text-muted-foreground mb-6 max-w-sm">
-                Your trusted partner for high-quality printing, branding, and
-                campaign materials. Serving schools, corporates, and political
-                campaigns across India.
+                Your trusted partner for advertising, branding, printing, and
+                promotional solutions. Serving corporates, institutions, and
+                businesses across Delhi NCR & Pan India.
               </p>
               <div className="flex gap-4">
                 {[Facebook, Instagram, Twitter, Linkedin].map((Icon, idx) => (
@@ -141,25 +144,25 @@ export const Footer = () => {
                 <li className="flex items-start gap-3">
                   <MapPin size={18} className="text-primary mt-1 flex-shrink-0" />
                   <span className="text-muted-foreground">
-                    123 Print Street, Industrial Area, Mumbai 400001
+                    Sector-49, Noida, Uttar Pradesh
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone size={18} className="text-primary flex-shrink-0" />
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+919953099845"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +91 98765 43210
+                    +91 99530 99845
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail size={18} className="text-primary flex-shrink-0" />
                   <a
-                    href="mailto:info@mvgraphics.com"
+                    href="mailto:info@jyotienterpriseindia.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    info@mvgraphics.com
+                    info@jyotienterpriseindia.com
                   </a>
                 </li>
               </ul>
@@ -172,7 +175,7 @@ export const Footer = () => {
       <div className="border-t border-border/10">
         <div className="container-xl py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © 2024 MV Graphics. All rights reserved.
+            © 2025 Jyoti Enterprises. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

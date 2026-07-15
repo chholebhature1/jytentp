@@ -13,7 +13,7 @@ export const ServicesSection = () => {
           label="What Can We Do"
           title="Services we can"
           highlight="HELP you with"
-          description="Our team of strategists is poised to execute comprehensive research and branding strategies, guiding you towards effectively reaching your target audience."
+          description="From concept development to final execution, Jyoti Enterprises provides comprehensive advertising solutions under one roof, ensuring seamless project delivery and maximum client satisfaction."
           isDark={true}
         />
 

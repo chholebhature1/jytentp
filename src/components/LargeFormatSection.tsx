@@ -13,10 +13,10 @@ export const LargeFormatSection = () => {
   );
 
   const stats = [
-    { icon: Flag, value: "50,000+", label: "Banners Printed" },
-    { icon: Vote, value: "100+", label: "Political Campaigns" },
-    { icon: Users, value: "200+", label: "Events Covered" },
-    { icon: Megaphone, value: "1M+", label: "Flyers Distributed" },
+    { icon: Flag, value: "10,000+", label: "Signages Installed" },
+    { icon: Vote, value: "50+", label: "Political Campaigns" },
+    { icon: Users, value: "100+", label: "Events Covered" },
+    { icon: Megaphone, value: "500+", label: "Brands Promoted" },
   ];
 
   return (

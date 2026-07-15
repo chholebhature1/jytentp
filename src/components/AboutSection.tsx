@@ -4,28 +4,28 @@ import { CheckCircle, Award, Clock, Users } from "lucide-react";
 const features = [
   {
     icon: Award,
-    title: "Premium Quality",
-    description: "Industry-leading printing standards with vivid colors and precise finishes",
+    title: "Quality Assurance",
+    description: "Industry-leading standards with modern printing technology and innovative design approach",
   },
   {
     icon: Clock,
     title: "Fast Turnaround",
-    description: "Quick delivery without compromising on quality, even for bulk orders",
+    description: "Quick delivery within committed timelines, even for large-scale projects",
   },
   {
     icon: Users,
-    title: "Expert Team",
-    description: "Experienced designers and technicians dedicated to your success",
+    title: "Customer-Centric",
+    description: "Long-term partnerships built on professionalism, trust, and strong client relationships",
   },
 ];
 
 const checkPoints = [
-  "State-of-the-art printing technology",
-  "Eco-friendly printing options",
-  "Custom design assistance",
-  "Bulk order discounts",
-  "Pan-India delivery",
-  "24/7 customer support",
+  "Professional & creative team",
+  "Customized branding solutions",
+  "Competitive pricing",
+  "Timely project execution",
+  "End-to-end advertising support",
+  "Delhi NCR & Pan India coverage",
 ];
 
 export const AboutSection = () => {
@@ -46,7 +46,7 @@ export const AboutSection = () => {
               viewport={{ once: true }}
               className="inline-block text-primary text-sm font-semibold uppercase tracking-widest mb-4"
             >
-              ( About MV Graphics )
+              ( About Jyoti Enterprises )
             </motion.span>
 
             <motion.h2
@@ -57,7 +57,7 @@ export const AboutSection = () => {
               className="font-display text-4xl sm:text-5xl lg:text-6xl text-primary-foreground leading-tight mb-6"
             >
               Why Choose{" "}
-              <span className="text-gradient-primary">MV Graphics?</span>
+              <span className="text-gradient-primary">Jyoti Enterprises?</span>
             </motion.h2>
 
             <motion.p
@@ -67,10 +67,11 @@ export const AboutSection = () => {
               transition={{ delay: 0.2 }}
               className="text-muted-foreground text-lg mb-8 leading-relaxed"
             >
-              With over a decade of experience in printing and branding, we've
-              helped hundreds of businesses, schools, and political campaigns
-              make their mark. Our commitment to quality, speed, and customer
-              satisfaction sets us apart.
+              Jyoti Enterprises is a dynamic advertising and branding company
+              based in Noida, delivering innovative marketing, advertising,
+              printing, and promotional solutions to businesses, institutions,
+              government organizations, and corporate clients across Delhi NCR
+              & Pan India.
             </motion.p>
 
             {/* Checkpoints */}

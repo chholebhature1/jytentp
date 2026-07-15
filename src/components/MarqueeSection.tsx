@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 
 const marqueeItems = [
-  "Brand Strategy_",
-  "Graphic Design_",
-  "Large Format Printing_",
-  "Digital Displays_",
-  "Promotional Materials_",
+  "Advertising_",
   "Corporate Branding_",
-  "Political Campaigns_",
-  "School Branding_",
+  "Flex Printing_",
+  "Signage Solutions_",
+  "Event Branding_",
+  "Digital Marketing_",
+  "Vinyl Printing_",
+  "LED Signage_",
 ];
 
 export const MarqueeSection = () => {
