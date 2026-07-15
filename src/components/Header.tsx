@@ -42,17 +42,17 @@ export const Header = () => {
           <a href="#home" className="flex items-center gap-3 group">
             <motion.img
               src={visualMark}
-              alt="MV Graphics visual mark"
+              alt="Jyoti Enterprises visual mark"
               loading="eager"
               decoding="async"
               draggable={false}
-              className="w-11 h-11 rounded-2xl object-contain bg-background/90 p-1.5 ring-1 ring-border/20 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:shadow-md sm:w-12 sm:h-12"
+              className="w-16 h-16 rounded-2xl object-contain bg-background/90 p-1.5 ring-1 ring-border/20 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:shadow-md sm:w-20 sm:h-20"
             />
             <div className="hidden sm:block">
-              <h1 className="font-display text-xl text-primary-foreground tracking-wide leading-none">
+              <h1 className="font-display text-2xl text-primary-foreground tracking-wide leading-none">
                 Jyoti
               </h1>
-              <span className="font-display text-xl text-primary-foreground tracking-wide leading-none">
+              <span className="font-display text-2xl text-primary-foreground tracking-wide leading-none">
                 Enterprises
               </span>
             </div>
